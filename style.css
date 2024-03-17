@@ -1,59 +1,138 @@
-.main {
-    max-width: 1000px;
-    margin-right: 0px auto;
-    margin-left: 0px auto;
-  }
+
+#container{ border: 2px;
+  width: 100%;
+  margin-right: 0%;
+  margin-left: 0%;
+}
+#topnav{
+  display: flex;
+  gap:1%;
+  text-decoration: none;
+background-color: rgb(5, 148, 41);
+}
+#top{
+  display: flex;
+  gap: 5%;
+
+}
+#column1{
+  margin-left: 50%;
+  display: flex;
+  gap: 10%;
+}
+#nav2{
+  display: flex;
+  gap: 5%;
+  margin-left: 700px;
+}
+#pics{
+ display: flex;
+ gap: 5%;
+ margin-left: 300px;
+}
+
+
+#pics1{
+  margin-left: 1300px;
+}
+#pics2{
+  display: flex;
+  gap:10% ;
+
+}
+#cap{
+  display: flex;
+  gap: 5%;
+}
+#text{
+font-size: 40px;
+margin-top: 10%;
+}
+#first{margin-top: 10%;
   
-  h1 {
-    font-size: 50px;
-    word-break: break-all;
-  }
+}
+/* .glass{
+  margin-right: 70%;
+} */
+ #shelf1{
+  display: flex; 
+  gap: 20%;
+  margin-top: 10%;
+ } 
+ #shirt{
+  display: flex;
+  gap: 40%;
+ }
+ #load{
+  margin-left: 900px;
+ }
+#hat{
+  margin-top: 17%;
+  margin-left: 3%;
+}
+#glass{
+  margin-top: 17%;
+}
+#column2{
+  display: flex;
+  gap: 5%;
+  margin-left: 300px;
+  margin-top: 10%;
+}
+#column3{
+display: flex;
+gap: 5%;
+margin-top: 10%;
+}
+.texts{
+  font-size: 30px;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+#h1{
+  text-align: center;
+  margin-top: 4%;
+}
+#column4{
+display: flex;
+gap: 5%;
+margin-left: 300px;
+margin-top: 3%;
+}
+.bb{
+  margin-top: 80%;
+}
+.sneak{
+  margin-top: 24%;
+}
+#h2{
+  text-align: center;
+  margin-top: 6%;
+}
+#column5{
+  display: flex;
+  gap: 3%;
+  margin-left: 13%;
+  margin-top: 2%;
+}
+#footer{
+  display: flex;
+  gap: 10%;
+  margin-top: 10%;
+  margin-left: 15%;
+}
+.button{
+  background-color: rgb(2, 24, 46);
+  color:aliceblue ;
+}
+#last{
+  display: flex;
+  margin-top: 4%;
+
+}
+#logos{
+  margin-left: 900px;
+}
+.hb{
   
-  .row {
-    margin: 8px -16px;
-  }
-  
-  .row,
-  .row > .column {
-    padding: 8px;
-  }
-  
-  .column {
-    float: left;
-    width: 25%;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  .content {
-    background-color: white;
-    padding: 10px;
-  }
-  #nav{
-    display: flex;
-    gap:15%;
-  }
-  #shelf1{
-    display: flex;
-    justify-content: space-between;
-  }
-  #shelf{
-    display: flex;
-    gap: 10%;
-  }
-  @media all and (min-width: 280px)
-  and (max-width: 1024px) {
-    .column {
-      width: 50%;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
+}
